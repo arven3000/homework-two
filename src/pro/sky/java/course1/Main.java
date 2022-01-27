@@ -11,13 +11,15 @@ public class Main {
         long valueFour = 1_000_000L;
         float valueFive = 3.14f;
         double valueSix = -3.14;
+        char valueSeven = 'f';
 
         System.out.println("Переменная типа byte равна " + valueOne + "\n"
                 + "Переменная типа short равна" + valueTwo + "\n"
                 + "Переменная типа int равна " + valueThree + "\n"
                 + "Переменная типа long равна " + valueFour + "\n"
                 + "Переменная типа float равна " + valueFive + "\n"
-                + "Переменная типа double равна " + valueSix);
+                + "Переменная типа double равна " + valueSix + "\n"
+                + "Переменная типа char равна " + valueSeven);
         System.out.println("---------------------------------------------------");
 
         /*Task 2*/
@@ -82,9 +84,9 @@ public class Main {
 
         System.out.println("Маша после повышения зарплаты получает " + mariaSalarAfter
                 + " рублей. Годовой доход вырос на " + annualIncomeMaria + " рублей.\n"
-        + "Денис после повышения зарплаты получает " + denisSalaryAfter
+                + "Денис после повышения зарплаты получает " + denisSalaryAfter
                 + " рублей. Годовой доход вырос на " + annualIncomeDenis + " рублей.\n"
-        + "Кристина после повышения зарплаты получает " + kristinaSalaryAfter
+                + "Кристина после повышения зарплаты получает " + kristinaSalaryAfter
                 + " рублей. Годовой доход вырос на " + annualIncomeKristina + " рублей.\n");
 
     }
